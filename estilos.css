@@ -4,7 +4,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Raleway';
     /*outline: 1px solid red;*/
 }
 
@@ -33,8 +32,10 @@ section {
     justify-content: center;
 }
 
+/*Seccion del Hero*/
+
 .hero {
-    min-height: 400px;
+    min-height: 420px;
     text-align: center;
     background-color: #f5f6f7;
 }
@@ -56,6 +57,10 @@ section {
     color: #615151;
 }
 
+.hero h1 {
+    font-weight: bold;
+}
+
 li a {
     text-decoration: none;
 }
@@ -65,16 +70,85 @@ li a {
     background-color: #1b1b32;
 }
 
+
+/*Sobre mi*/
+
 .sobre__mi {
-    margin-top: 80px;
     height: 500px;
     padding: 20px;
 }
 
-.sobre__mi .contenedor {}
+.sobre__mi .contenedor {
+    max-width: 650px;
+    text-align: center;
+}
+
+.seccion__titulo {
+    font-size: 2rem;
+    padding: 15px 0px;
+    font-family: 'Raleway';
+}
+
+.seccion__textos {
+    font-size: 1.2rem;
+
+}
+
+/*Experiencia*/
+.experiencia {
+    height: 550px;
+    padding: 40px;
+    /* border: 1px solid red; */
+}
+
+.experiencia .columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    border: 1px solid #8080804d;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion__clara {
+    color: #1b1b32;
+    background-color: #f5f6f7;
+
+}
+
+.experiencia__titulo {
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.experiencia i {
+    /*iconos*/
+    display: inline-block;
+    font-size: 35px;
+    color: #7ade30;
+    background-color: #0a0a23ef;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.badge {
+    margin: 3px;
+    text-transform: uppercase;
+}
 
 
-/*Media querys*/
+
+/*Adaptable Media querys*/
 
 @media screen and (max-with:767px) {
 
