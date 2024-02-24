@@ -4,23 +4,26 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Amatic';
+    font-family: 'Raleway';
     /*outline: 1px solid red;*/
 }
 
+
+
 .navbar {
     padding: 2rem;
-    /* background-color: yellow; */
+    background-color: #f5f6f7;
 }
 
 .navbar-collapse {
-    /* background-color: red; */
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 h1 {
     font-size: 2.5rem;
+    font-family: 'Raleway';
 }
 
 section {
@@ -47,9 +50,31 @@ section {
 }
 
 .hero__contenedor__textos h2 {
+    margin-top: 10px;
+    padding: 5px;
     font-size: 1.5rem;
     color: #615151;
 }
+
+li a {
+    text-decoration: none;
+}
+
+.seccion__oscura {
+    color: #f5f6f7;
+    background-color: #1b1b32;
+}
+
+.sobre__mi {
+    margin-top: 80px;
+    height: 500px;
+    padding: 20px;
+}
+
+.sobre__mi .contenedor {}
+
+
+/*Media querys*/
 
 @media screen and (max-with:767px) {
 
@@ -57,4 +82,10 @@ section {
         display: none;
     }
 
+}
+
+@media screen and (min-width:700px) {
+    .hero__inferior__imagen {
+        max-width: 650px;
+    }
 }
