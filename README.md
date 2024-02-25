@@ -1,14 +1,10 @@
-# Practica #2 Con Boostrap
+# Tareas de Topicos Avanzados
 ## Por: Valencia Hernández Carlos Eduardo
 
-Esta practica se realizo empleando boostrap, un archivo de estilos, y html.
-Elementos como el navbar, badge, flex, caruosuel, lista etc, feuron usados de Boostrap, asi como los iconos.
+En este repositorio subire todas mis tareas separadas en diferentes ramas para cada practica. Entra a alguna de mis ramas para poder descargar mis proyectos.
 
+### Enlaces rapidos a mis ramas:
+[Ir a Practica 1 Flask](https://github.com/choterifa/Tareas-Topicos/tree/Practica_2_Bootstrapp)
 
-### Descarga esta rama para obtener mis archivos: Code > Download.zip o Da click en este enlace:
-[Descargar esta rama](https://github.com/choterifa/Tareas-Topicos/archive/refs/heads/Practica_2_Bootstrap.zip)
-<br>
+[Ir a Practica 2 Boostrap](https://github.com/choterifa/Tareas-Topicos/tree/Practica_2_Bootstrapp)
 
-
-![Pagina lista](imagenes/Pagina%20Web.png)
-![Boostrap](imagenes/Boostrap.png)
