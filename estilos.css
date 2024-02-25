@@ -42,12 +42,14 @@ section {
 
 .hero__contenedor__textos {
     padding: 3rem;
+    overflow: hidden;
+    padding-bottom: 30px;
 }
 
 .hero__imagen__desarrollador {
     width: 200px;
     border-radius: 50%;
-    margin: 20px;
+    margin: 22px;
 }
 
 .hero__contenedor__textos h2 {
@@ -74,7 +76,7 @@ li a {
 /*Sobre mi*/
 
 .sobre__mi {
-    height: 400px;
+    height: 450px;
     padding: 20px;
 }
 
@@ -95,7 +97,7 @@ li a {
 
 /*Experiencia*/
 .experiencia {
-    padding: 40px;
+    padding: 110px 10px;
     /* border: 1px solid red; */
 }
 
@@ -146,6 +148,7 @@ li a {
 /* Proyectos */
 .proyectos__recientes {
     padding: 40px;
+    padding-bottom: 90px;
 }
 
 .seccion-titulo {
@@ -224,15 +227,16 @@ li a {
     color: #f5f6f7
 }
 
-/* articulos */
+/* Articulos */
 .articulos {
     min-height: 500px;
-    padding: 30px;
+    padding: 90px;
 }
 
 .card-header {
     font-weight: bold;
 }
+
 
 .articulos .card {
     width: 80%;
@@ -241,8 +245,8 @@ li a {
 
 }
 
-.btn-lg {
-    margin-top: 20px;
+.btn {
+    margin-top: 30px;
 }
 
 /*Carrusel*/
@@ -272,6 +276,6 @@ li a {
 
 @media screen and (min-width:700px) {
     .hero__inferior__imagen {
-        max-width: 650px;
+        max-width: 700px;
     }
 }
