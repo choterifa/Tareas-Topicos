@@ -42,12 +42,14 @@ section {
 
 .hero__contenedor__textos {
     padding: 3rem;
+    overflow: hidden;
+    padding-bottom: 30px;
 }
 
 .hero__imagen__desarrollador {
     width: 200px;
     border-radius: 50%;
-    margin: 20px;
+    margin: 22px;
 }
 
 .hero__contenedor__textos h2 {
@@ -74,7 +76,7 @@ li a {
 /*Sobre mi*/
 
 .sobre__mi {
-    height: 500px;
+    height: 450px;
     padding: 20px;
 }
 
@@ -91,13 +93,11 @@ li a {
 
 .seccion__textos {
     font-size: 1.2rem;
-
 }
 
 /*Experiencia*/
 .experiencia {
-    height: 550px;
-    padding: 40px;
+    padding: 110px 10px;
     /* border: 1px solid red; */
 }
 
@@ -119,7 +119,6 @@ li a {
 .seccion__clara {
     color: #1b1b32;
     background-color: #f5f6f7;
-
 }
 
 .experiencia__titulo {
@@ -146,6 +145,123 @@ li a {
     text-transform: uppercase;
 }
 
+/* Proyectos */
+.proyectos__recientes {
+    padding: 40px;
+    padding-bottom: 90px;
+}
+
+.seccion-titulo {
+    font-weight: bold;
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+}
+
+.proyectos__recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease-in;
+    /*desvanecer imagen*/
+}
+
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.seccion__descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.overlay {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all 0.2s ease;
+    /*aparicion texto*/
+}
+
+.proyecto {
+    position: relative;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.overlay .iconos-contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.overlay i {
+    color: #1b1b32;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+/*General*/
+.texto-negro {
+    color: #1b1b32;
+}
+
+.texto-blanco {
+
+    color: #f5f6f7
+}
+
+/* Articulos */
+.articulos {
+    min-height: 500px;
+    padding: 90px;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+
+.articulos .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+/*Carrusel*/
+.testimonios {
+    padding: 40px;
+}
+
+.carousel {
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.carousel-item {
+    height: 500px;
+}
 
 
 /*Adaptable Media querys*/
@@ -160,6 +276,6 @@ li a {
 
 @media screen and (min-width:700px) {
     .hero__inferior__imagen {
-        max-width: 650px;
+        max-width: 700px;
     }
 }
