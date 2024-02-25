@@ -7,4 +7,6 @@ En este repositorio subire todas mis tareas separadas en diferentes ramas para c
 [Ir a Practica 1 Flask](https://github.com/choterifa/Tareas-Topicos/tree/Pr%C3%A1ctica-%231-con-Flask)
 
 [Ir a Practica 2 Boostrap](https://github.com/choterifa/Tareas-Topicos/tree/Practica_2_Bootstrap)
+<br>
 
+![Boostrap](Boostrap.png)
