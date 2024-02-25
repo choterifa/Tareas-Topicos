@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
-
 * {
     margin: 0px;
     padding: 0px;
@@ -24,7 +23,7 @@ h1 {
 
 .imagen__contenedor {
     width: 600px;
-    background-color: red;
+    background-color: rgba(150, 150, 150, 0.289);
 }
 
 .imagen {
