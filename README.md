@@ -1,12 +1,12 @@
 # Tareas de Topicos Avanzados
 ## Por: Valencia Hernández Carlos Eduardo ISIC G1
 
-En este repositorio subire todas mis tareas separadas en diferentes ramas para cada practica. Entra a alguna de mis ramas para poder descargar mis proyectos.
+En esta actividad se practico flask
 
-### Enlaces rapidos a mis ramas:
-[Ir a Practica 1 Flask](https://github.com/choterifa/Tareas-Topicos/tree/Pr%C3%A1ctica-%231-con-Flask)
 
-[Ir a Practica 2 Boostrap](https://github.com/choterifa/Tareas-Topicos/tree/Practica_2_Bootstrap)
+### Descarga esta rama para obtener mis archivos: Code > Download.zip o Da click en este enlace:
+[Descargar esta rama](https://github.com/choterifa/Tareas-Topicos/archive/refs/heads/Practica_3_jinjar.zip)
 <br>
 
-![Boostrap](Boostrap.png)
+
+![Pagina lista]()
