@@ -30,28 +30,32 @@
 
                 <ul class="navbar-nav d-flex justify-content-center align-items-center"> <!--Crear flex y alinear-->
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Ir a Base</a>
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/hero">Ir a Hero</a>
+                        <a class="nav-link" href="/hero">Hero</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/sobremi">Sobre mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/experiencia">experiencia</a>
+                        <a class="nav-link" href="/experiencia">Experiencia</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/proyectos">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/login">Ir a login</a>
+                        <a class="nav-link" href="/login">Login</a>
                     </li>
-
                 </ul>
             </div>
         </div>
     </nav>
+
+    {% block mensaje %}
+    {% import 'overlay.html' as mensaje %}
+    {{ mensaje.overlay() }}
+    {% endblock %}
 
 
     {%block content%}
