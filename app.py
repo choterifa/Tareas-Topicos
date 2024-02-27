@@ -9,9 +9,24 @@ def index():
     return render_template('base.html')
 
 
-@app.route('/home')  # ruta principal
-def home():
-    return render_template('home.html')
+@app.route('/hero')  # ruta principal
+def hero():
+    return render_template('hero.html')
+
+
+@app.route('/sobremi')  # ruta principal
+def sobremi():
+    return render_template('sobremi.html')
+
+
+@app.route('/experiencia')  # ruta principal
+def experiencia():
+    return render_template('experiencia.html')
+
+
+@app.route('/proyectos')  # ruta principal
+def proyectos():
+    return render_template('proyectos.html')
 
 
 @app.route('/login')  # ruta principal

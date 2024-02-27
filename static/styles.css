@@ -7,8 +7,6 @@
     /*outline: 1px solid red;*/
 }
 
-
-
 .navbar {
     padding: 2rem;
     background-color: #f5f6f7;
@@ -44,6 +42,16 @@ section {
     padding: 3rem;
     overflow: hidden;
     padding-bottom: 30px;
+}
+
+.hero__inferior {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.hero__inferior__imagen {
+    width: 100%;
+    display: block;
 }
 
 .hero__imagen__desarrollador {
