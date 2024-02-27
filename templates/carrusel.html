@@ -1,0 +1,37 @@
+{%extends 'base.html'%} <!--extneide de base-->
+
+{%block mensaje%}  {%endblock%}
+
+{%block experiencia%}
+<!-- carrusel -->
+<section class="testimonios seccion__clara">
+    <h2 class="seccion-titulo">Carrusel</h2>
+    <h2 class="seccion__descripcion">Probando el carrusel con algunas imagenes</h2>
+    <div id="testimonios-carrusel" class="carousel slide carousel-dark" data-bs-touch="false">
+        <div class="carousel-inner"> <!--parte de imagenes-->
+            <div class="carousel-item active"><!--active para la principal-->
+                <img src="https://images.unsplash.com/photo-1607861716497-e65ab29fc7ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjE3NjF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MjE4Njl8&ixlib=rb-4.0.3&q=80&w=1080"
+                    class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1622711321771-4a00d2bc0350?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjE3NjF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MjE4Njl8&ixlib=rb-4.0.3&q=80&w=1080"
+                    class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="
+                        https://images.unsplash.com/photo-1606663889134-b1dedb5ed8b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjE3NjF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MjE4Njl8&ixlib=rb-4.0.3&q=80&w=1080"
+                    class="d-block w-100">
+            </div>
+        </div>
+        <!--las flcehas son los botones-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+{%endblock%}

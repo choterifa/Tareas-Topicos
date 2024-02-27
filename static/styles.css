@@ -7,7 +7,13 @@
     /*outline: 1px solid red;*/
 }
 
+.h3-altura {
+    height: 65vh;
+    line-height: 65vh;
+}
+
 .navbar {
+    height: 10vh;
     padding: 2rem;
     background-color: #f5f6f7;
 }
@@ -29,6 +35,9 @@ section {
     align-items: center;
     justify-content: center;
 }
+
+
+.footer {}
 
 /*Seccion del Hero*/
 
@@ -105,7 +114,8 @@ li a {
 
 /*Experiencia*/
 .experiencia {
-    padding: 110px 10px;
+    height: 90vh;
+    padding: 20vh 10px;
     /* border: 1px solid red; */
 }
 
