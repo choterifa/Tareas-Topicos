@@ -1,12 +1,9 @@
-{%extends 'base.html'%} <!--extneide de base-->
+{%extends 'base.html'%}
 
-<!--titulo de la pagina-->
-{%block title%} Hero {%endblock%}
-{% block mensaje %} {%endblock%}
+{%block title%} index {%endblock%}
 
 
-<!--contenido bajo navbar-->
-{%block content%}
+{%block index%}
 <section class="hero align-items-stretch">
     <div class="hero__contenedor__textos d-flex flex-column justify-content-center align-items-center"> <!--flex-->
         <img class="hero__imagen__desarrollador" src="../static/imagenes/Patin.jpg" alt="Foto de mi ">
@@ -18,7 +15,4 @@
             alt="Computadoras, Css Boostrap">
     </div>
 </section>
-
 {%endblock%}
-
-
