@@ -9,6 +9,8 @@ En este repositorio subire todas mis tareas separadas en diferentes ramas para c
 [Ir a Practica 2 Boostrap](https://github.com/choterifa/Tareas-Topicos/tree/Practica_2_Bootstrap)
 
 [Ir a Practica 3 Jinjar](https://github.com/choterifa/Tareas-Topicos/tree/Practica-3-Jinjar?tab=readme-ov-file)
+
+[Ir a Practica 4 Get y post](https://github.com/choterifa/Tareas-Topicos/tree/Practica-4-Yinja-con-GET-Y-POST)
 <br>
 
 ![Boostrap](Boostrap.png)
