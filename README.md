@@ -5,4 +5,5 @@ En esta actividad se practico el get y post para realizar un inicio de sesion de
 
 ### Descarga esta rama para obtener mis archivos: Code > Download.zip o Da click en este enlace:
 [Descargar esta rama](https://github.com/choterifa/Tareas-Topicos/archive/refs/heads/Practica-4-Yinja-con-GET-Y-POST.zip)
-<br>
+![Descargar esta rama](static/imagenes/login%20final.png)
+
